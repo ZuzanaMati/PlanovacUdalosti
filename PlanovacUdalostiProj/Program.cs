@@ -12,7 +12,6 @@ class Program
         Console.WriteLine(" - STATS pro statistiky");
         Console.WriteLine(" - END pro ukonceni");
         List<Event> events = new List<Event>();
-        Dictionary<DateTime, int> stats = new Dictionary<DateTime, int>();
 
         while (true)
         {
@@ -58,57 +57,16 @@ class Program
                 else if (entry.Trim().ToUpper() == "LIST")
                 {
                     //Jeslize jeste nejsou zadne udalost
-                    if (events.Count == 0)
-                    {
-                        Console.WriteLine("Zatím nemáš žádné naplánované události.");
-                        continue;
-                    }
-
-                    //spocitej rozdil mesi datem eventu a dnesnim datem
-                    foreach (Event e in events.OrderBy(e => e.Date))
-                    {
-                        int daysDiff = (e.Date - DateTime.Today).Days;
-
-                        //vypis pouze udalosti, ktere maji teprve nasledovat
-                        if (daysDiff >= 0)
-                        {
-                            System.Console.WriteLine($"Event {e.Name} s datem {e.Date:yyyy-MM-dd} se uskutecni za {daysDiff} dni");
-                        }
-                        else
-                        {
-                            Console.WriteLine($"Event {e.Name} s datem {e.Date:yyyy-MM-dd} probehl pred {-daysDiff} dny");
-                        }
-                    }
+                    if (EventManager.CheckIfEventListIsEmpty(events)) continue;
+                    EventManager.PrintEventList(events);
+    
                 }
                 else if (entry.Trim().ToUpper() == "STATS")
                 {
 
                     //Jestli jeste nejsou zadne udalosti
-                    if (events.Count == 0)
-                    {
-                        Console.WriteLine("Žádné události k vyhodnocení statistik.");
-                        continue;
-                    }
-
-                    stats = new Dictionary<DateTime, int>();
-
-                    foreach (Event e in events)
-                    {
-                        DateTime dateOnly = e.Date.Date;
-                        if (stats.ContainsKey(dateOnly))
-                        {
-                            stats[dateOnly]++;
-                        }
-                        else
-                        {
-                            stats[dateOnly] = 1;
-                        }
-                    }
-
-                    foreach (var e in stats.OrderBy(e => e.Key))
-                    {
-                        Console.WriteLine("Datum: " + e.Key.ToString("yyyy-MM-dd") + ": eventy: " + e.Value);
-                    }
+                    if (EventManager.CheckIfEventListIsEmpty(events)) continue;
+                    EventManager.PrintEventStats(events);
 
                 }
                 else

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlanovacUdalostiProj")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a196ff959c224adf6bd245a4fe09fe219b547d1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlanovacUdalostiProj")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlanovacUdalostiProj")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

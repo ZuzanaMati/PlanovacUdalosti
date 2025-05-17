@@ -12,3 +12,4 @@
 \\Mac\Home\Desktop\C#2\CSharp2_kurz\PlanovacUdalosti\PlanovacUdalostiProj\obj\Debug\net9.0\PlanovacUdalostiProj.pdb
 \\Mac\Home\Desktop\C#2\CSharp2_kurz\PlanovacUdalosti\PlanovacUdalostiProj\obj\Debug\net9.0\PlanovacUdalostiProj.genruntimeconfig.cache
 \\Mac\Home\Desktop\C#2\CSharp2_kurz\PlanovacUdalosti\PlanovacUdalostiProj\obj\Debug\net9.0\ref\PlanovacUdalostiProj.dll
+\\Mac\Home\Desktop\C#2\CSharp2_kurz\PlanovacUdalosti\PlanovacUdalostiProj\obj\Debug\net9.0\PlanovacUdalostiProj.sourcelink.json
