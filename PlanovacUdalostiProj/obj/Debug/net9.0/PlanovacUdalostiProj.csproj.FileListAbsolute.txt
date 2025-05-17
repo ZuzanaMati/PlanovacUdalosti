@@ -1,0 +1,14 @@
+\\Mac\Home\Desktop\C#2\CSharp2_kurz\PlanovacUdalosti\PlanovacUdalostiProj\obj\Debug\net9.0\PlanovacUdalostiProj.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Desktop\C#2\CSharp2_kurz\PlanovacUdalosti\PlanovacUdalostiProj\obj\Debug\net9.0\PlanovacUdalostiProj.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\C#2\CSharp2_kurz\PlanovacUdalosti\PlanovacUdalostiProj\obj\Debug\net9.0\PlanovacUdalostiProj.AssemblyInfo.cs
+\\Mac\Home\Desktop\C#2\CSharp2_kurz\PlanovacUdalosti\PlanovacUdalostiProj\obj\Debug\net9.0\PlanovacUdalostiProj.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\C#2\CSharp2_kurz\PlanovacUdalosti\PlanovacUdalostiProj\bin\Debug\net9.0\PlanovacUdalostiProj.exe
+\\Mac\Home\Desktop\C#2\CSharp2_kurz\PlanovacUdalosti\PlanovacUdalostiProj\bin\Debug\net9.0\PlanovacUdalostiProj.deps.json
+\\Mac\Home\Desktop\C#2\CSharp2_kurz\PlanovacUdalosti\PlanovacUdalostiProj\bin\Debug\net9.0\PlanovacUdalostiProj.runtimeconfig.json
+\\Mac\Home\Desktop\C#2\CSharp2_kurz\PlanovacUdalosti\PlanovacUdalostiProj\bin\Debug\net9.0\PlanovacUdalostiProj.dll
+\\Mac\Home\Desktop\C#2\CSharp2_kurz\PlanovacUdalosti\PlanovacUdalostiProj\bin\Debug\net9.0\PlanovacUdalostiProj.pdb
+\\Mac\Home\Desktop\C#2\CSharp2_kurz\PlanovacUdalosti\PlanovacUdalostiProj\obj\Debug\net9.0\PlanovacUdalostiProj.dll
+\\Mac\Home\Desktop\C#2\CSharp2_kurz\PlanovacUdalosti\PlanovacUdalostiProj\obj\Debug\net9.0\refint\PlanovacUdalostiProj.dll
+\\Mac\Home\Desktop\C#2\CSharp2_kurz\PlanovacUdalosti\PlanovacUdalostiProj\obj\Debug\net9.0\PlanovacUdalostiProj.pdb
+\\Mac\Home\Desktop\C#2\CSharp2_kurz\PlanovacUdalosti\PlanovacUdalostiProj\obj\Debug\net9.0\PlanovacUdalostiProj.genruntimeconfig.cache
+\\Mac\Home\Desktop\C#2\CSharp2_kurz\PlanovacUdalosti\PlanovacUdalostiProj\obj\Debug\net9.0\ref\PlanovacUdalostiProj.dll
